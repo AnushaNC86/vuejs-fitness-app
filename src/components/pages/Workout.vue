@@ -10,8 +10,6 @@ const { data, selectedWorkout } = defineProps({
   handleSaveWorkout: Function,
 });
 
-console.log(data, "kkkkk");
-
 const { warmup, workout } = workoutProgram[selectedWorkout];
 const workoutType = ["Push", "Pull", "Legs"];
 // let selectedExercise = null; // this won't work we need stateful variable so

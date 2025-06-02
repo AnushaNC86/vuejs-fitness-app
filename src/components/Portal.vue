@@ -36,7 +36,7 @@ const { data, handleCloseModal } = defineProps({
 .portal-underlay {
   position: absolute;
   inset: 0;
-  background: var(--background-primary);
+  background: rgba(0, 0, 0, 0.5);
   opacity: 0.7;
   z-index: 999;
   border: none;
