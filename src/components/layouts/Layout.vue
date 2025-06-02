@@ -7,13 +7,6 @@
   <main>
     <slot></slot>
   </main>
-  <footer>
-    <small>Created by</small>
-    <a href="https://www.github.com/AnushaNC86" target="_blank">
-      <p>Anusha</p>
-      <i class="fa-brands fa-github"></i>
-    </a>
-  </footer>
 </template>
 
 <style scoped>

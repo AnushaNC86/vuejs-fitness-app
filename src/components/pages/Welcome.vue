@@ -4,11 +4,6 @@ import { defineProps } from "vue";
 defineProps({
   handleChangeDisplay: Function,
 });
-
-// const handleChangeDisplay = (page) => {
-//   // Logic to change the display page
-//   console.log(`Changing display to page: ${page}`);
-// };
 </script>
 
 <template>
